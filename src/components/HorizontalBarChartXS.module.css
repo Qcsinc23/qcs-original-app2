@@ -1,0 +1,148 @@
+.xSVerticalAxis {
+  position: absolute;
+  width: 71.1%;
+  top: 93px;
+  right: 9.22%;
+  left: 19.68%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.xSValueAxis {
+  position: absolute;
+  width: 0.07%;
+  top: 89.1px;
+  right: 76.8%;
+  left: 23.13%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 7.8px;
+}
+.frameChild {
+  position: absolute;
+  width: 0.07%;
+  top: 89.1px;
+  right: 43.06%;
+  left: 56.87%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 7.8px;
+}
+.frameItem {
+  position: absolute;
+  top: 89.1px;
+  left: 90.62%;
+  width: 0px;
+  height: 7.8px;
+}
+.monthSmallIcon {
+  position: absolute;
+  width: 21.36%;
+  top: 99.4px;
+  right: 66.18%;
+  left: 12.46%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 13.4px;
+  object-fit: contain;
+}
+.monthSmallIcon1 {
+  position: absolute;
+  width: 21.41%;
+  top: 100px;
+  right: 32.46%;
+  left: 46.13%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 13.5px;
+  object-fit: contain;
+}
+.monthSmallIcon2 {
+  position: absolute;
+  width: 21.41%;
+  top: 100px;
+  right: -1.31%;
+  left: 79.89%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 13.5px;
+  object-fit: contain;
+}
+.barIcon {
+  position: absolute;
+  width: 16.87%;
+  top: 92px;
+  right: 43.13%;
+  left: 40%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+  object-fit: contain;
+}
+.barIcon1 {
+  position: absolute;
+  width: 16.87%;
+  top: 90.6px;
+  right: 26.25%;
+  left: 56.87%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+  object-fit: contain;
+}
+.barIcon2 {
+  position: absolute;
+  width: 8.45%;
+  top: 91.3px;
+  right: 34.68%;
+  left: 56.87%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+  object-fit: contain;
+}
+.barIcon3 {
+  position: absolute;
+  width: 19.06%;
+  top: 92.7px;
+  right: 24.06%;
+  left: 56.87%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+  object-fit: contain;
+}
+.datasetParent {
+  position: absolute;
+  height: 7.92%;
+  width: 8.6%;
+  top: 13.13%;
+  right: 45.71%;
+  bottom: 78.95%;
+  left: 45.69%;
+  text-align: left;
+  font-size: var(--body-size);
+}
+.xSVerticalAxisParent {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0%;
+  left: 0%;
+  background-color: var(--color-white);
+  height: 100%;
+  overflow: hidden;
+}
+.horizontalBarChartXs {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  font-size: var(--body-small-size);
+  color: var(--text-grey);
+  font-family: var(--body-small);
+}

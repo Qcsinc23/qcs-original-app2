@@ -1,0 +1,355 @@
+.inventoryManagement {
+  margin: 0;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  line-height: 120%;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.button {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 1280px;
+}
+.button1 {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 800px;
+}
+.button2 {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 960px;
+}
+.button3 {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 1120px;
+}
+.actions {
+  position: absolute;
+  top: 131px;
+  left: 390px;
+  width: 1480px;
+  height: 50px;
+}
+.filterChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 2px 8px 15px rgba(63, 63, 63, 0.1);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.enterName {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+}
+.category {
+  position: absolute;
+  top: 25px;
+  left: 430px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+}
+.supplier {
+  position: absolute;
+  top: 25px;
+  left: 670px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+}
+.location {
+  position: absolute;
+  top: 25px;
+  left: 910px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+}
+.status {
+  position: absolute;
+  top: 25px;
+  left: 1150px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+}
+.button4 {
+  position: absolute;
+  top: 25px;
+  left: 1330px;
+}
+.filter {
+  position: absolute;
+  top: 211px;
+  left: 390px;
+  width: 1480px;
+  height: 100px;
+}
+.inventoryList1 {
+  margin: 0;
+  position: absolute;
+  top: 357px;
+  left: 390px;
+  line-height: 120%;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.sortBy {
+  position: absolute;
+  top: 13px;
+  left: 0px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 67px;
+}
+.sort {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 87px;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+}
+.sortFilter {
+  position: absolute;
+  top: 351px;
+  left: 1603px;
+  width: 267px;
+  height: 50px;
+}
+.result1Container {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 160%;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.pageInput {
+  position: absolute;
+  top: 0px;
+  left: 166px;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+}
+.pageNumberButtons {
+  position: absolute;
+  top: 0px;
+  left: 61px;
+}
+.pageNumberButtons1 {
+  position: absolute;
+  top: 0px;
+  left: 122px;
+}
+.pageNumberButtons2 {
+  position: absolute;
+  top: 0px;
+  left: 183px;
+}
+.pageNumberButtons3 {
+  position: absolute;
+  top: 0px;
+  left: 244px;
+}
+.pageNumberButtons4 {
+  position: absolute;
+  top: 0px;
+  left: 305px;
+}
+.pageNumber {
+  position: absolute;
+  top: 8px;
+  left: 75px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 160%;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 18px;
+}
+.pageNumberButtons5 {
+  position: absolute;
+  top: 8px;
+  left: 134px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 22px;
+}
+.pageNumberButtons6 {
+  position: absolute;
+  top: 8px;
+  left: 195px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 22px;
+}
+.pageNumberButtons7 {
+  position: absolute;
+  top: 8px;
+  left: 255px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 23px;
+}
+.pageNumberButtons8 {
+  position: absolute;
+  top: 8px;
+  left: 316px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 23px;
+}
+.pageButton {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.pageNumberButtonsChild {
+  position: absolute;
+  top: 23px;
+  left: 16px;
+  width: 14px;
+  height: 0px;
+  object-fit: contain;
+}
+.pageNumberButtons9 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 45px;
+  height: 45px;
+}
+.pageNumberButtonsItem {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.pageNumberButtonsInner {
+  position: absolute;
+  top: 23px;
+  left: 16px;
+  width: 14px;
+  height: 14.7px;
+}
+.pageNumberButtons10 {
+  position: absolute;
+  top: 0px;
+  left: 366px;
+  width: 45px;
+  height: 45px;
+}
+.paginationButtons {
+  position: absolute;
+  top: 0px;
+  left: 1069px;
+  width: 411px;
+  height: 45px;
+}
+.pagination {
+  position: absolute;
+  top: 1301px;
+  left: 390px;
+  width: 1480px;
+  height: 45px;
+}
+.inventoryList {
+  margin: 0;
+  width: 1920px;
+  height: 1420px;
+  background-color: var(--color-whitesmoke);
+  max-width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .inventoryManagement {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+
+  .inventoryList1 {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .inventoryManagement {
+    font-size: var(--font-size-lg);
+    line-height: var(--font-size-3xl);
+  }
+
+  .inventoryList1 {
+    font-size: var(--font-size-lg);
+    line-height: var(--font-size-3xl);
+  }
+}

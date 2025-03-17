@@ -1,0 +1,417 @@
+.maskGroupIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.mapElementsChild {
+  width: 45px;
+  height: 45.1px;
+  position: relative;
+  z-index: 1;
+}
+.mapElements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-83xl) 0px 0px;
+}
+.mapChild {
+  height: 45.3px;
+  width: 37.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: 157px;
+  left: 371px;
+  z-index: 1;
+}
+.pickupIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.pickupLabelChild {
+  height: 45.3px;
+  width: 37.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -19px;
+  left: -11px;
+  z-index: 1;
+}
+.pickupLocation {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  font-weight: 600;
+  z-index: 3;
+}
+.pickupLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.sauerLock {
+  position: relative;
+  font-size: var(--body-size);
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  color: var(--color-darkslategray-300);
+  z-index: 3;
+}
+.pickupIconContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-lgi) var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-8xs);
+  min-width: 157px;
+}
+.dropoffChild {
+  width: 37.2px;
+  height: 45.3px;
+  position: relative;
+  z-index: 1;
+}
+.dropoff {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-lg-7);
+}
+.pickupMarker {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-498xl);
+}
+.pickupPinChild {
+  width: 37.2px;
+  height: 45.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 100px;
+  left: 102px;
+  z-index: 1;
+}
+.pickupPinItem {
+  width: 45px;
+  height: 45.1px;
+  position: absolute;
+  margin: 0 !important;
+  right: 181.2px;
+  bottom: 0px;
+  z-index: 1;
+}
+.brandwomenIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.dropOffLocation {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 122px;
+  z-index: 2;
+}
+.sauerLock1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  z-index: 2;
+}
+.dropoffLocationChild {
+  position: absolute;
+  top: 155.5px;
+  left: 111px;
+  width: 45px;
+  height: 45.1px;
+  z-index: 1;
+}
+.dropoffLocationItem {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 459px;
+  height: 175px;
+  z-index: 3;
+}
+.dropoffLocation {
+  height: 200.6px;
+  width: 459px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -120.1px;
+  left: -381px;
+}
+.dropoffLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  font-size: var(--body-size);
+  color: var(--color-darkslategray-300);
+}
+.dropoffIconContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-lgi) var(--padding-5xl);
+  position: relative;
+  gap: var(--gap-8xs);
+}
+.dropoffMarker {
+  width: 408.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-64xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pickupPin {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-36xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-50xl);
+  max-width: 100%;
+}
+.pickup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-base) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 45.1px;
+  width: 45px;
+  position: relative;
+  z-index: 1;
+}
+.routeProgressChild {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+.routeProgress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0px 0px;
+}
+.frameParent {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.routeEndChild {
+  height: 45.3px;
+  width: 37.2px;
+  position: relative;
+  z-index: 1;
+}
+.destination {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0px 0px;
+}
+.routeEnd {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameItem {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.brandwomenIcon1 {
+  position: absolute;
+  height: 5%;
+  width: 32%;
+  top: 50%;
+  right: 34%;
+  bottom: 45%;
+  left: 34%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.routeDetails {
+  width: 777px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.locations {
+  width: 813px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-181xl-9);
+  max-width: 100%;
+}
+.map {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-35xl) var(--padding-21xl) var(--padding-21xl)
+    var(--padding-137xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1350px) {
+  .map {
+    flex-wrap: wrap;
+    padding-left: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .pickupMarker {
+    gap: var(--gap-239xl);
+    flex-wrap: wrap;
+  }
+
+  .pickupPin {
+    gap: var(--gap-15xl);
+  }
+
+  .locations {
+    gap: var(--gap-81xl);
+  }
+
+  .map {
+    padding-left: var(--padding-20xl);
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pickupMarker {
+    gap: var(--gap-110xl);
+  }
+
+  .dropoffMarker {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .pickupPin {
+    gap: var(--gap-mid);
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+
+  .routeEnd {
+    flex-wrap: wrap;
+  }
+
+  .locations {
+    gap: var(--gap-31xl);
+  }
+
+  .map {
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

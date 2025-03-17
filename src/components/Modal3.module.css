@@ -1,0 +1,426 @@
+.buttonChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.updateStatus {
+  position: absolute;
+  top: 12px;
+  left: 28px;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 125px;
+}
+.button {
+  width: 180px;
+  height: 50px;
+  position: relative;
+  display: none;
+  z-index: 0;
+  color: var(--color-darkgray);
+}
+.modalChild {
+  width: 891px;
+  height: 770px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.deliveryDetails {
+  margin: 0;
+  width: 327.5px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 38px);
+  z-index: 1;
+}
+.modalCloseIconChild {
+  width: 17.9px;
+  height: 18px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.modalCloseIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+}
+.modalHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 0px var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkslategray-200);
+}
+.firstSeparator {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.modalContentSeparator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-3xs) var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.deliveryInformation {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  z-index: 1;
+}
+.deliveryInformationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-5xl);
+}
+.secondSeparator {
+  width: 1px;
+  height: 197px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 159px;
+  left: 137px;
+  border-right: 1px dashed var(--color-darkgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.pickupLocation {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  font-weight: 600;
+  z-index: 1;
+}
+.locationDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.statusHistory {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  font-weight: 600;
+  z-index: 1;
+}
+.locationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 167px;
+}
+.sauerLock {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  z-index: 1;
+}
+.mapView {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 121px;
+  z-index: 1;
+}
+.mapViewButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-34xl);
+  font-size: var(--font-size-5xl);
+}
+.locationView {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 253px;
+  max-width: 100%;
+}
+.locationContainerParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.p {
+  margin: 0;
+}
+.nov14 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  z-index: 1;
+}
+.orderStatusDate {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xs) 0px 0px;
+  box-sizing: border-box;
+}
+.statusCircle {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-200);
+  z-index: 2;
+}
+.orderStatusIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0px 0px;
+}
+.orderReceived {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 116px;
+  z-index: 1;
+}
+.orderStatusList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameChild {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  z-index: 2;
+}
+.shipped {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 62px;
+  z-index: 1;
+}
+.arrivingNov18 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 143px;
+  z-index: 1;
+}
+.orderStatusListParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+}
+.orderStatusContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 346px;
+  max-width: 100%;
+}
+.maskGroupIcon {
+  align-self: stretch;
+  height: 212.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.button1 {
+  width: 220px;
+  height: 50px;
+  box-shadow: 0px 10px 30px rgba(237, 48, 6, 0.2);
+  padding: var(--padding-xs) var(--padding-9xl) var(--padding-smi);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.modalFooter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-30xl-7);
+  min-width: 263px;
+  max-width: 100%;
+}
+.orderStatusContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-300);
+}
+.modal {
+  position: absolute;
+  top: calc(50% - 425px);
+  left: calc(50% - 445px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 891px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-21xl) var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 4;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 800px) {
+  .locationContainer {
+    flex: 1;
+  }
+
+  .locationContainerParent {
+    flex-wrap: wrap;
+  }
+
+  .orderStatusContainer {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .orderStatusContainerParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .deliveryDetails {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+
+  .deliveryInformation {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .pickupLocation {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-3xl);
+  }
+
+  .statusHistory {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .sauerLock {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-3xl);
+  }
+
+  .mapView {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .orderReceived {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-lgi);
+  }
+
+  .orderStatusList {
+    flex-wrap: wrap;
+  }
+
+  .shipped {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-lgi);
+  }
+
+  .arrivingNov18 {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-lgi);
+  }
+}

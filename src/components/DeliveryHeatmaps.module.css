@@ -1,0 +1,924 @@
+.deliveryHeatmaps1 {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.deliveryHeatmapsChild {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 500px;
+  height: 300px;
+}
+.frameChild {
+  position: absolute;
+  width: 91.44%;
+  top: 187.2px;
+  right: 8.13%;
+  left: 0.43%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.5px;
+}
+.frameItem {
+  position: absolute;
+  width: 91.44%;
+  top: 151.8px;
+  right: 8.13%;
+  left: 0.43%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.5px;
+}
+.frameInner {
+  position: absolute;
+  width: 91.44%;
+  top: 116.5px;
+  right: 8.13%;
+  left: 0.43%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.5px;
+}
+.vectorIcon {
+  position: absolute;
+  width: 91.44%;
+  top: 81.2px;
+  right: 8.13%;
+  left: 0.43%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.5px;
+}
+.frameChild1 {
+  position: absolute;
+  width: 91.44%;
+  top: 45.9px;
+  right: 8.13%;
+  left: 0.43%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.5px;
+}
+.frameChild2 {
+  position: absolute;
+  width: 0.14%;
+  top: 45.9px;
+  right: 95.45%;
+  left: 4.42%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 155.3px;
+}
+.frameChild3 {
+  position: absolute;
+  width: 0.14%;
+  top: 45.9px;
+  right: 73.58%;
+  left: 26.29%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 155.3px;
+}
+.frameChild4 {
+  position: absolute;
+  width: 0.14%;
+  top: 45.9px;
+  right: 51.71%;
+  left: 48.16%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 155.3px;
+}
+.frameChild5 {
+  position: absolute;
+  width: 0.14%;
+  top: 45.9px;
+  right: 29.84%;
+  left: 70.03%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 155.3px;
+}
+.frameChild6 {
+  position: absolute;
+  width: 0.14%;
+  top: 45.9px;
+  right: 7.97%;
+  left: 91.9%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 155.3px;
+}
+.dot {
+  position: absolute;
+  width: 2.74%;
+  top: 172.5px;
+  right: 90.95%;
+  left: 6.31%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.dot1 {
+  position: absolute;
+  width: 2.74%;
+  top: 167.5px;
+  right: 87.8%;
+  left: 9.46%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.dot2 {
+  position: absolute;
+  width: 2.74%;
+  top: 155.9px;
+  right: 89.57%;
+  left: 7.7%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.ellipseDiv {
+  position: absolute;
+  width: 2.74%;
+  top: 144.8px;
+  right: 85.2%;
+  left: 12.06%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild7 {
+  position: absolute;
+  width: 2.74%;
+  top: 134.7px;
+  right: 86.83%;
+  left: 10.43%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild8 {
+  position: absolute;
+  width: 2.74%;
+  top: 126.1px;
+  right: 80.27%;
+  left: 16.99%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild9 {
+  position: absolute;
+  width: 2.74%;
+  top: 120.6px;
+  right: 77.53%;
+  left: 19.73%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild10 {
+  position: absolute;
+  width: 2.74%;
+  top: 162.4px;
+  right: 80%;
+  left: 17.26%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild11 {
+  position: absolute;
+  width: 2.74%;
+  top: 136.2px;
+  right: 66.07%;
+  left: 31.19%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild12 {
+  position: absolute;
+  width: 2.74%;
+  top: 124.6px;
+  right: 59.78%;
+  left: 37.48%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild13 {
+  position: absolute;
+  width: 2.74%;
+  top: 160.9px;
+  right: 63.2%;
+  left: 34.07%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild14 {
+  position: absolute;
+  width: 2.74%;
+  top: 158.9px;
+  right: 60.46%;
+  left: 36.8%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild15 {
+  position: absolute;
+  width: 2.74%;
+  top: 175px;
+  right: 62.52%;
+  left: 34.74%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild16 {
+  position: absolute;
+  width: 2.74%;
+  top: 177.6px;
+  right: 54.99%;
+  left: 42.28%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild17 {
+  position: absolute;
+  width: 2.74%;
+  top: 93.8px;
+  right: 67.02%;
+  left: 30.24%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild18 {
+  position: absolute;
+  width: 2.74%;
+  top: 58.5px;
+  right: 68.81%;
+  left: 28.46%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild19 {
+  position: absolute;
+  width: 2.74%;
+  top: 58.5px;
+  right: 61.82%;
+  left: 35.45%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild20 {
+  position: absolute;
+  width: 2.74%;
+  top: 42.9px;
+  right: 54.85%;
+  left: 42.41%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild21 {
+  position: absolute;
+  width: 2.74%;
+  top: 68.6px;
+  right: 57.59%;
+  left: 39.67%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild22 {
+  position: absolute;
+  width: 2.74%;
+  top: 78.7px;
+  right: 58.97%;
+  left: 38.29%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild23 {
+  position: absolute;
+  width: 2.74%;
+  top: 101.4px;
+  right: 54.31%;
+  left: 42.95%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild24 {
+  position: absolute;
+  width: 2.74%;
+  top: 113.5px;
+  right: 54.99%;
+  left: 42.28%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild25 {
+  position: absolute;
+  width: 2.74%;
+  top: 96.4px;
+  right: 44.07%;
+  left: 53.2%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild26 {
+  position: absolute;
+  width: 2.74%;
+  top: 96.4px;
+  right: 40.79%;
+  left: 56.48%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild27 {
+  position: absolute;
+  width: 2.74%;
+  top: 81.2px;
+  right: 36.53%;
+  left: 60.73%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild28 {
+  position: absolute;
+  width: 2.74%;
+  top: 60.1px;
+  right: 42.14%;
+  left: 55.12%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild29 {
+  position: absolute;
+  width: 2.74%;
+  top: 55.5px;
+  right: 33.52%;
+  left: 63.74%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild30 {
+  position: absolute;
+  width: 2.74%;
+  top: 55px;
+  right: 10.43%;
+  left: 86.83%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild31 {
+  position: absolute;
+  width: 2.74%;
+  top: 45.9px;
+  right: 17.67%;
+  left: 79.59%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild32 {
+  position: absolute;
+  width: 2.74%;
+  top: 58.5px;
+  right: 20.14%;
+  left: 77.13%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild33 {
+  position: absolute;
+  width: 2.74%;
+  top: 86.3px;
+  right: 24.53%;
+  left: 72.74%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild34 {
+  position: absolute;
+  width: 2.74%;
+  top: 96.4px;
+  right: 18.78%;
+  left: 78.48%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild35 {
+  position: absolute;
+  width: 2.74%;
+  top: 111.5px;
+  right: 24.09%;
+  left: 73.17%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild36 {
+  position: absolute;
+  width: 2.74%;
+  top: 120.6px;
+  right: 18.78%;
+  left: 78.48%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild37 {
+  position: absolute;
+  width: 2.74%;
+  top: 146.3px;
+  right: 9.08%;
+  left: 88.18%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild38 {
+  position: absolute;
+  width: 2.74%;
+  top: 128.6px;
+  right: 19.46%;
+  left: 77.8%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild39 {
+  position: absolute;
+  width: 2.74%;
+  top: 149.8px;
+  right: 22.74%;
+  left: 74.53%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild40 {
+  position: absolute;
+  width: 2.74%;
+  top: 175px;
+  right: 23.14%;
+  left: 74.12%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild41 {
+  position: absolute;
+  width: 2.74%;
+  top: 175px;
+  right: 11.79%;
+  left: 85.47%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild42 {
+  position: absolute;
+  width: 2.74%;
+  top: 172.5px;
+  right: 8.1%;
+  left: 89.16%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild43 {
+  position: absolute;
+  width: 2.74%;
+  top: 170px;
+  right: 20%;
+  left: 77.26%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild44 {
+  position: absolute;
+  width: 2.74%;
+  top: 88.8px;
+  right: 14.53%;
+  left: 82.74%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild45 {
+  position: absolute;
+  width: 2.74%;
+  top: 108.5px;
+  right: 11.79%;
+  left: 85.47%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild46 {
+  position: absolute;
+  width: 2.74%;
+  top: 130.7px;
+  right: 38.05%;
+  left: 59.21%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild47 {
+  position: absolute;
+  width: 2.74%;
+  top: 131.2px;
+  right: 40.65%;
+  left: 56.61%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild48 {
+  position: absolute;
+  width: 2.74%;
+  top: 136.2px;
+  right: 39.27%;
+  left: 57.99%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild49 {
+  position: absolute;
+  width: 2.74%;
+  top: 139.7px;
+  right: 37.91%;
+  left: 59.35%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild50 {
+  position: absolute;
+  width: 2.74%;
+  top: 126.6px;
+  right: 30.81%;
+  left: 66.45%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild51 {
+  position: absolute;
+  width: 2.74%;
+  top: 118.6px;
+  right: 30.38%;
+  left: 66.88%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild52 {
+  position: absolute;
+  width: 2.74%;
+  top: 102.9px;
+  right: 33.96%;
+  left: 63.31%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild53 {
+  position: absolute;
+  width: 2.74%;
+  top: 169px;
+  right: 34.91%;
+  left: 62.36%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild54 {
+  position: absolute;
+  width: 2.74%;
+  top: 162.4px;
+  right: 45.42%;
+  left: 51.84%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild55 {
+  position: absolute;
+  width: 2.74%;
+  top: 169px;
+  right: 33.12%;
+  left: 64.15%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild56 {
+  position: absolute;
+  width: 2.74%;
+  top: 50px;
+  right: 93.69%;
+  left: 3.58%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild57 {
+  position: absolute;
+  width: 2.74%;
+  top: 65.6px;
+  right: 94.23%;
+  left: 3.04%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild58 {
+  position: absolute;
+  width: 2.74%;
+  top: 55.5px;
+  right: 78.92%;
+  left: 18.35%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild59 {
+  position: absolute;
+  width: 2.74%;
+  top: 74.2px;
+  right: 76.18%;
+  left: 21.08%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild60 {
+  position: absolute;
+  width: 2.74%;
+  top: 92.8px;
+  right: 77.53%;
+  left: 19.73%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild61 {
+  position: absolute;
+  width: 2.74%;
+  top: 70.6px;
+  right: 83.82%;
+  left: 13.44%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild62 {
+  position: absolute;
+  width: 2.74%;
+  top: 74.2px;
+  right: 85.07%;
+  left: 12.2%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild63 {
+  position: absolute;
+  width: 2.74%;
+  top: 93.8px;
+  right: 87.8%;
+  left: 9.46%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild64 {
+  position: absolute;
+  width: 2.74%;
+  top: 98.9px;
+  right: 85.07%;
+  left: 12.2%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild65 {
+  position: absolute;
+  width: 2.74%;
+  top: 106.5px;
+  right: 88.21%;
+  left: 9.05%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild66 {
+  position: absolute;
+  width: 2.74%;
+  top: 134.7px;
+  right: 92.85%;
+  left: 4.42%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.frameChild67 {
+  position: absolute;
+  width: 2.74%;
+  top: 124.6px;
+  right: 91.49%;
+  left: 5.77%;
+  border-radius: 50%;
+  background-color: var(--color-tomato-100);
+  border: 0px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  height: 10.1px;
+}
+.nameParent {
+  position: absolute;
+  height: calc(100% - 123px);
+  width: calc(100% - 131px);
+  top: 87px;
+  right: 65px;
+  bottom: 36px;
+  left: 66px;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.deliveryHeatmaps {
+  position: absolute;
+  top: 561px;
+  left: 920px;
+  width: 500px;
+  height: 350px;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 450px) {
+  .deliveryHeatmaps1 {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+}

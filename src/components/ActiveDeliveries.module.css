@@ -1,0 +1,99 @@
+.activeDeliveries1 {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.activeDeliveriesChild {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 500px;
+  height: 300px;
+}
+.vertical {
+  position: absolute;
+  height: calc(100% + 39.6px);
+  width: calc(100% + 93px);
+  top: -9px;
+  right: -93px;
+  bottom: -30.6px;
+  left: 0px;
+  background-color: var(--color-white);
+}
+.horizontal1 {
+  position: absolute;
+  height: calc(100% + 39.6px);
+  width: calc(100% - 118.9px);
+  top: -9px;
+  right: -93px;
+  bottom: -30.6px;
+  left: 211.9px;
+  background-color: var(--color-white);
+  font-size: var(--body-size);
+}
+.horizontal2 {
+  position: absolute;
+  height: calc(100% + 39.6px);
+  width: calc(100% - 246.2px);
+  top: -9px;
+  right: -93.1px;
+  bottom: -30.6px;
+  left: 339.3px;
+  background-color: var(--color-white);
+}
+.horizontal3 {
+  position: absolute;
+  height: calc(100% + 39.6px);
+  width: calc(100% - 359.4px);
+  top: -9px;
+  right: -93px;
+  bottom: -30.6px;
+  left: 452.4px;
+  background-color: var(--color-white);
+}
+.horizontal4 {
+  position: absolute;
+  height: calc(100% + 39.6px);
+  width: calc(100% - 472.6px);
+  top: -9px;
+  right: -93px;
+  bottom: -30.6px;
+  left: 565.6px;
+  background-color: var(--color-white);
+}
+.resize {
+  position: absolute;
+  height: calc(100% - 50px);
+  width: calc(100% - 27px);
+  top: 50px;
+  right: 14px;
+  bottom: 0px;
+  left: 13px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--body-small-size);
+  color: var(--text-grey);
+  font-family: var(--body-small);
+}
+.activeDeliveries {
+  position: absolute;
+  top: 561px;
+  left: 390px;
+  width: 500px;
+  height: 350px;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 450px) {
+  .activeDeliveries1 {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+}

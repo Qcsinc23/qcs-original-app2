@@ -1,0 +1,355 @@
+.modalChild {
+  width: 1480px;
+  height: 800px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.eventName {
+  border: none;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  min-width: 439px;
+  max-width: 100%;
+  z-index: 1;
+}
+.eventType {
+  height: 60px;
+  width: 675px;
+  padding: var(--padding-base) var(--padding-9xl) var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.modalHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.description {
+  border: none;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  z-index: 1;
+}
+.priorityLevel {
+  height: 60px;
+  width: 440.4px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  max-width: 100%;
+  z-index: 1;
+}
+.dueDate {
+  height: 60px;
+  width: 439.4px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  max-width: 100%;
+  z-index: 1;
+}
+.priorityFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl-9);
+  max-width: 100%;
+}
+.assignedTo {
+  height: 60px;
+  width: 675px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  max-width: 100%;
+  z-index: 1;
+}
+.attachments {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 113px;
+  z-index: 1;
+}
+.attachmentsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0px 0px;
+}
+.assigneeFieldChild {
+  border: none;
+  background-color: transparent;
+  width: 532px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  max-width: 100%;
+  z-index: 1;
+}
+.assigneeField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl-5);
+  max-width: 100%;
+}
+.checkbox {
+  margin: 0;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.span {
+  color: var(--color-tomato-100);
+}
+.sendAnImmediate {
+  color: var(--color-darkslategray-100);
+}
+.sendAnImmediateContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  text-align: left;
+  z-index: 1;
+}
+.sendAnImmediateNotificationWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 274px;
+  max-width: 100%;
+}
+.checkboxParent {
+  width: 459px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.frameChild {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  z-index: 1;
+}
+.addSubTask {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  z-index: 1;
+}
+.addSubTaskWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px 0px;
+}
+.frameGroup {
+  width: 207px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.assigneeFieldParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.setReminder {
+  margin: 0;
+  width: 331px;
+  position: relative;
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.dueDate1 {
+  height: 60px;
+  width: 439.4px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.time1 {
+  height: 60px;
+  width: 440.4px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.reminderFields {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl-9);
+  max-width: 100%;
+}
+.setReminderParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.button {
+  width: 160px;
+  height: 50px;
+  box-shadow: 0px 10px 30px rgba(237, 48, 6, 0.2);
+  padding: var(--padding-xs) var(--padding-39xl) var(--padding-smi);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.priorityFieldsParent {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.modal {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-31xl) var(--padding-32xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1800px) {
+  .priorityFields {
+    flex-wrap: wrap;
+  }
+
+  .assigneeField {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .modalHeader {
+    flex-wrap: wrap;
+  }
+
+  .reminderFields {
+    flex-wrap: wrap;
+  }
+
+  .modal {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .eventName {
+    min-width: 100%;
+  }
+
+  .assigneeField {
+    gap: var(--gap-mini);
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+
+  .modal {
+    gap: var(--gap-mini);
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .checkboxParent {
+    flex-wrap: wrap;
+  }
+
+  .addSubTask {
+    font-size: var(--font-size-lg);
+    line-height: var(--font-size-2xl);
+  }
+
+  .setReminder {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+
+  .modal {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

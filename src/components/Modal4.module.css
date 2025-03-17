@@ -1,0 +1,389 @@
+.modalChild {
+  width: 891px;
+  height: 850px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.proofDetails {
+  margin: 0;
+  width: 327.5px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 38px);
+  z-index: 1;
+}
+.closeIconChild {
+  width: 17.9px;
+  height: 18px;
+  position: relative;
+  z-index: 1;
+}
+.closeIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+}
+.modalHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 0px var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  color: var(--color-darkslategray-200);
+}
+.headerSeparatorChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.headerSeparator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-3xs) var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  z-index: 1;
+}
+.deliveryInformation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-5xl);
+}
+.pickupLocation {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  font-weight: 600;
+  z-index: 1;
+}
+.sauerLock {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.locationItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.locationItems1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.modalContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.digitalSignature {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  font-weight: 600;
+  z-index: 1;
+}
+.image12Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.signatureData {
+  width: 277px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.photos {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 1;
+}
+.imageIcon {
+  height: 81px;
+  width: 81px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  z-index: 1;
+}
+.photoGallery {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.proofPhotos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.signature {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.button {
+  height: 50px;
+  width: 140px;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button1 {
+  height: 50px;
+  flex: 1;
+  box-shadow: 0px 10px 30px rgba(237, 48, 6, 0.2);
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.proofActions {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.signaturePhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+  max-width: 100%;
+}
+.marshallSalzar {
+  margin: 0;
+}
+.id284772 {
+  margin: 0;
+}
+.marshallSalzarIdContainer {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  z-index: 1;
+}
+.recipientIdentity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.recipientInfoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs);
+}
+.comment {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 127px;
+  z-index: 1;
+}
+.commentInputWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) 0px var(--padding-11xs);
+}
+.description {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  height: 120px;
+  width: auto;
+  outline: none;
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-13xl);
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  z-index: 1;
+}
+.recipientInfoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-44xl);
+  min-width: 263px;
+  max-width: 100%;
+}
+.signaturePhotos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.modal {
+  position: absolute;
+  top: calc(50% - 425px);
+  left: calc(50% - 445px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 891px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-21xl) var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  z-index: 4;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 825px) {
+  .locationItems {
+    flex-wrap: wrap;
+  }
+
+  .locationItems1 {
+    flex-wrap: wrap;
+  }
+
+  .signaturePhoto {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .recipientIdentity {
+    flex: 1;
+  }
+
+  .signaturePhotos {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .proofDetails {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+
+  .pickupLocation {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-3xl);
+  }
+
+  .sauerLock {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-3xl);
+  }
+
+  .digitalSignature {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .photos {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .photoGallery {
+    flex-wrap: wrap;
+  }
+
+  .marshallSalzarIdContainer {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-3xl);
+  }
+
+  .comment {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

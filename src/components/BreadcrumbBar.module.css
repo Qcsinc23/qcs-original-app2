@@ -1,0 +1,393 @@
+.dashboardEvents {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+}
+.mainChild {
+  height: 166px;
+  width: 600px;
+  position: relative;
+  box-shadow: 5px 20px 50px rgba(255, 111, 60, 0.15);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.eventsTitleGoes {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.link {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-forestgreen);
+  z-index: 1;
+}
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0px 0px;
+}
+.upcoming {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  z-index: 1;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-xl);
+}
+.eventsTitleGoesHereParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameChild {
+  height: 25.8px;
+  width: 25.8px;
+  position: relative;
+  z-index: 1;
+}
+.frameItem {
+  height: 25.6px;
+  width: 25.6px;
+  position: relative;
+  z-index: 1;
+}
+.frameInner {
+  height: 25.6px;
+  width: 23.1px;
+  position: relative;
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.mainInner {
+  width: 134.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-11xs-2);
+  box-sizing: border-box;
+  margin-left: -134px;
+  position: relative;
+}
+.main {
+  align-self: stretch;
+  box-shadow: 5px 20px 50px rgba(255, 111, 60, 0.15);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-tomato-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-18xl) var(--padding-19xl)
+    var(--padding-21xl);
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+}
+.tabsChild {
+  height: 60px;
+  width: 600px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: none;
+}
+.rectangleDiv {
+  height: 40px;
+  width: 150px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-tomato-100);
+  display: none;
+}
+.logisticsPlan {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 105px;
+  z-index: 1;
+}
+.rectangleParent {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-tomato-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-4xl) var(--padding-3xs);
+  z-index: 1;
+  color: var(--color-white);
+}
+.inventory {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 72px;
+  z-index: 1;
+}
+.inventoryWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs) 0px 0px;
+}
+.assignedPersonnel {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  z-index: 1;
+}
+.documents {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 90px;
+  z-index: 1;
+}
+.documentsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px 0px;
+}
+.tabs {
+  align-self: stretch;
+  height: 60px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  overflow-x: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  gap: var(--gap-6xl);
+}
+.logisticsPlanChild {
+  width: 600px;
+  height: 575px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.logisticsPlan2 {
+  margin: 0;
+  width: 331px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.margin {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.taskName {
+  margin: 0;
+  width: 142px;
+  height: 22px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.robertSteve {
+  color: var(--color-darkslategray-100);
+}
+.assigneeRobertSteveContainer {
+  width: 206px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ddMmYyyy {
+  color: var(--color-darkslategray-100);
+}
+.dueDateDdMmYyyyContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 180%;
+  z-index: 1;
+}
+.dueDateDdMmYyyyWrapper {
+  width: 231px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.assigneeRobertSteveParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+}
+.tableRows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.masterDataStructuresAlgori {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px dashed var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.logisticsPlanItem {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px dashed var(--color-lightgray);
+  box-sizing: border-box;
+  display: none;
+}
+.logisticsPlan1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-20xl) var(--padding-160xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xl-3);
+  max-width: 100%;
+  font-size: var(--font-size-3xl);
+}
+.tabbedPane {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+}
+.breadcrumbBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  min-width: 600px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1350px) {
+  .breadcrumbBar {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 900px) {
+  .eventsTitleGoes {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+
+  .assigneeRobertSteveParent {
+    flex-wrap: wrap;
+  }
+
+  .logisticsPlan1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-97xl);
+    box-sizing: border-box;
+  }
+
+  .breadcrumbBar {
+    gap: var(--gap-5xl);
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .eventsTitleGoes {
+    font-size: var(--font-size-lg);
+    line-height: var(--font-size-3xl);
+  }
+
+  .upcoming {
+    font-size: var(--font-size-base);
+    line-height: var(--font-size-3xl);
+  }
+
+  .logisticsPlan2 {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+
+  .taskName {
+    font-size: var(--font-size-lg);
+    line-height: 35px;
+  }
+}

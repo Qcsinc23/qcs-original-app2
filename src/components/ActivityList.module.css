@@ -1,0 +1,121 @@
+.assignedATask {
+  color: var(--color-tomato-100);
+}
+.sherwynGrahamAssignedContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 28px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  width: 541px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.justNow {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 180%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 72px;
+  z-index: 1;
+}
+.adobedbcpng {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-forestgreen);
+  z-index: 1;
+}
+.feedItemIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0px 0px;
+}
+.time {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.timeWrapper {
+  height: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.activityDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+}
+.activityItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.uberbcbapng {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px dashed var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.activityList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 900px) {
+  .activityDetails {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sherwynGrahamAssignedContainer {
+    font-size: var(--font-size-lg);
+    line-height: 35px;
+  }
+}

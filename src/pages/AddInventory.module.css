@@ -1,0 +1,526 @@
+.dashboardInventory {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+}
+.breadcrumb {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.breadcrumbParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.addNewInventory {
+  margin: 0;
+  width: 761px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.formChild {
+  width: 1480px;
+  height: 1565px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.basicInformation {
+  margin: 0;
+  width: 331px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.basicInfoFieldsChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.itemName {
+  border: none;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  min-width: 286px;
+  max-width: 100%;
+  z-index: 1;
+}
+.category {
+  height: 60px;
+  width: 440.4px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  max-width: 100%;
+  z-index: 1;
+}
+.inputFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl-9);
+  max-width: 100%;
+}
+.basicInformationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.description {
+  border: none;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.stockInformation {
+  margin: 0;
+  width: 331px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.quantityAvailable {
+  border: none;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  min-width: 300px;
+  max-width: 100%;
+  z-index: 1;
+}
+.stockInformationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.primaryLocation {
+  height: 60px;
+  width: 675px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  max-width: 100%;
+  z-index: 1;
+}
+.secondaryLocation {
+  border: none;
+  background-color: transparent;
+  width: 675px;
+  font-size: var(--font-size-lg);
+  max-width: 100%;
+  z-index: 1;
+}
+.primaryLocationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.frameItem {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.lineWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.phoneNumber {
+  border: none;
+  background-color: transparent;
+  width: 439.4px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  max-width: 100%;
+  z-index: 1;
+}
+.emailAddress {
+  border: none;
+  background-color: transparent;
+  width: 440.4px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  max-width: 100%;
+  z-index: 1;
+}
+.supplierInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl-9);
+  max-width: 100%;
+}
+.pricingHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.priceInputs {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 29.4px;
+  max-width: 100%;
+}
+.images {
+  margin: 0;
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  display: inline-block;
+  width: 331px;
+  height: 34px;
+  z-index: 1;
+}
+.imagesDivider {
+  position: absolute;
+  top: 169px;
+  left: 0px;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 1381px;
+  height: 1px;
+  z-index: 1;
+}
+.pricingFields {
+  align-self: stretch;
+  height: 170px;
+  position: relative;
+  max-width: 100%;
+}
+.frameInner {
+  height: 130px;
+  width: 130px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.page1Icon {
+  height: 54px;
+  width: 54px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-19xl);
+  z-index: 1;
+}
+.pageControlChild {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  margin: 0 !important;
+  top: 42px;
+  right: -10px;
+  z-index: 1;
+}
+.pageControl {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 123px;
+}
+.addMore {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 103px;
+  z-index: 1;
+}
+.addMoreWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-33xl) 0px 0px;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.imageContainer {
+  width: 627px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 100px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button {
+  height: 50px;
+  flex: 1;
+  padding: var(--padding-xs) var(--padding-13xl) var(--padding-smi);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button1 {
+  height: 50px;
+  flex: 1;
+  box-shadow: 0px 10px 30px rgba(237, 48, 6, 0.2);
+  padding: var(--padding-xs) var(--padding-29xl) var(--padding-smi);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.actions {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.imageUpload {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+}
+.additionalInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.form {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-31xl) var(--padding-32xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkslategray-200);
+}
+.sidebarContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.sidebar {
+  width: 1480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.addInventory {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 92px;
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1800px) {
+  .primaryLocationParent {
+    flex-wrap: wrap;
+  }
+
+  .supplierInfo {
+    flex-wrap: wrap;
+  }
+
+  .addInventory {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .inputFields {
+    flex-wrap: wrap;
+  }
+
+  .priceInputs {
+    flex-wrap: wrap;
+  }
+
+  .pricingFields {
+    height: auto;
+    min-height: 170;
+  }
+
+  .imageUpload {
+    flex-wrap: wrap;
+  }
+
+  .form {
+    padding: var(--padding-13xl) var(--padding-6xl) var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .breadcrumb {
+    display: none;
+  }
+
+  .addNewInventory {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+
+  .form {
+    gap: var(--gap-6xl);
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+
+  .addInventory {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .addNewInventory {
+    font-size: var(--font-size-lg);
+    line-height: var(--font-size-3xl);
+  }
+
+  .basicInformation {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+
+  .stockInformation {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+
+  .images {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+
+  .addMore {
+    font-size: var(--font-size-lg);
+    line-height: var(--font-size-2xl);
+  }
+
+  .form {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,305 @@
+.mVerticalAxis {
+  position: absolute;
+  height: 30.94%;
+  width: 0.07%;
+  top: 13.12%;
+  right: 85.14%;
+  bottom: 55.94%;
+  left: 14.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mValueAxis {
+  position: absolute;
+  height: 30.94%;
+  width: 0.07%;
+  top: 13.12%;
+  right: 70.65%;
+  bottom: 55.94%;
+  left: 29.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameChild {
+  position: absolute;
+  height: 30.94%;
+  width: 0.07%;
+  top: 13.12%;
+  right: 56.18%;
+  bottom: 55.94%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameItem {
+  position: absolute;
+  height: 30.94%;
+  width: 0.07%;
+  top: 13.12%;
+  right: 41.8%;
+  bottom: 55.94%;
+  left: 58.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mVerticalGrid {
+  position: absolute;
+  height: 30.94%;
+  width: 0.07%;
+  top: 13.12%;
+  right: 27.33%;
+  bottom: 55.94%;
+  left: 72.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mMonthTick {
+  position: absolute;
+  height: 0.12%;
+  width: 59.58%;
+  top: 42.29%;
+  right: 27.4%;
+  bottom: 57.59%;
+  left: 13.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mMonthLabel {
+  position: absolute;
+  height: 0.12%;
+  width: 59.58%;
+  top: 35%;
+  right: 27.4%;
+  bottom: 64.88%;
+  left: 13.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mMonthGrid {
+  position: absolute;
+  height: 0.12%;
+  width: 59.58%;
+  top: 27.71%;
+  right: 27.4%;
+  bottom: 72.18%;
+  left: 13.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameInner {
+  position: absolute;
+  height: 0.12%;
+  width: 59.58%;
+  top: 20.41%;
+  right: 27.4%;
+  bottom: 79.47%;
+  left: 13.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mValueLabel {
+  position: absolute;
+  height: 0.12%;
+  width: 59.58%;
+  top: 13.12%;
+  right: 27.4%;
+  bottom: 86.76%;
+  left: 13.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.barIcon {
+  position: absolute;
+  height: 1.47%;
+  width: 21.25%;
+  top: 14.26%;
+  right: 56.24%;
+  bottom: 84.26%;
+  left: 22.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon1 {
+  position: absolute;
+  height: 1.56%;
+  width: 11.55%;
+  top: 16.56%;
+  right: 44.7%;
+  bottom: 81.88%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon2 {
+  position: absolute;
+  height: 1.47%;
+  width: 16.55%;
+  top: 18.97%;
+  right: 56.25%;
+  bottom: 79.56%;
+  left: 27.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon3 {
+  position: absolute;
+  height: 1.56%;
+  width: 25.51%;
+  top: 20.41%;
+  right: 56.25%;
+  bottom: 78.03%;
+  left: 18.23%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon4 {
+  position: absolute;
+  height: 1.56%;
+  width: 11.98%;
+  top: 23.12%;
+  right: 44.28%;
+  bottom: 75.32%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon5 {
+  position: absolute;
+  height: 1.56%;
+  width: 13.34%;
+  top: 25.53%;
+  right: 42.92%;
+  bottom: 72.91%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon6 {
+  position: absolute;
+  height: 1.56%;
+  width: 24.79%;
+  top: 28.24%;
+  right: 31.47%;
+  bottom: 70.21%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon7 {
+  position: absolute;
+  height: 1.56%;
+  width: 7.08%;
+  top: 30.62%;
+  right: 49.17%;
+  bottom: 67.82%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon8 {
+  position: absolute;
+  height: 1.56%;
+  width: 8.23%;
+  top: 35.41%;
+  right: 48.02%;
+  bottom: 63.03%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon9 {
+  position: absolute;
+  height: 1.56%;
+  width: 13.34%;
+  top: 38.12%;
+  right: 42.92%;
+  bottom: 60.32%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon10 {
+  position: absolute;
+  height: 1.56%;
+  width: 14.38%;
+  top: 33.03%;
+  right: 56.24%;
+  bottom: 65.41%;
+  left: 29.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barIcon11 {
+  position: absolute;
+  height: 1.56%;
+  width: 1.77%;
+  top: 40.53%;
+  right: 54.49%;
+  bottom: 57.91%;
+  left: 43.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.barChart {
+  position: absolute;
+  height: 7.91%;
+  width: 8.6%;
+  top: 23.76%;
+  right: 9.35%;
+  bottom: 68.32%;
+  left: 82.05%;
+}
+.nameParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: -0.4px;
+  left: 0px;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.horizontalBarChartM {
+  position: absolute;
+  height: 100%;
+  width: calc(100% + 339.2px);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -339.2px;
+}

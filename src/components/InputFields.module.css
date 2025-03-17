@@ -1,0 +1,118 @@
+.namePhoneInputsChild {
+  border: none;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  min-width: 250px;
+  max-width: 100%;
+  z-index: 1;
+}
+.namePhoneInputs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.parent {
+  align-self: stretch;
+  height: 60px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  z-index: 1;
+}
+.rectangleInput {
+  margin: 0;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  z-index: 1;
+}
+.span1 {
+  color: var(--color-tomato-100);
+}
+.iHaveReviewedTheBelowLink {
+  color: var(--color-darkslategray-100);
+}
+.iHaveReviewedContainer {
+  align-self: stretch;
+  height: 29px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 29px;
+  font-family: var(--font-poppins);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.iHaveReviewedTheBelowLinkWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 436px;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 716px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.button {
+  width: 220px;
+  height: 50px;
+  box-shadow: 0px 10px 30px rgba(237, 48, 6, 0.2);
+  padding: var(--padding-xs) var(--padding-13xl) var(--padding-smi);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.alreadyAQuietCraftSolution {
+  color: var(--color-darkgray);
+}
+.alreadyAQuietContainer {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.inputFields {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .namePhoneInputs {
+    flex-wrap: wrap;
+  }
+
+  .iHaveReviewedTheBelowLinkWrapper {
+    min-width: 100%;
+  }
+
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}

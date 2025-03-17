@@ -1,0 +1,361 @@
+.barChart {
+  position: absolute;
+  width: 8.6%;
+  top: 144px;
+  right: 6.64%;
+  left: 84.75%;
+  height: 26.9px;
+}
+.verticalAxisIcon {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 86.31%;
+  left: 13.62%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameChild {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 80.05%;
+  left: 19.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameItem {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 73.8%;
+  left: 26.13%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameInner {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 67.56%;
+  left: 32.37%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.vectorIcon {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 61.31%;
+  left: 38.62%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameChild1 {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 55.05%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameChild2 {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 48.8%;
+  left: 51.13%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameChild3 {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 42.56%;
+  left: 57.37%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameChild4 {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 36.31%;
+  left: 63.62%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameChild5 {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 30.05%;
+  left: 69.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameChild6 {
+  position: absolute;
+  width: 0.07%;
+  top: 44.6px;
+  right: 23.8%;
+  left: 76.13%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 233.5px;
+}
+.frameChild7 {
+  position: absolute;
+  width: 64.38%;
+  top: 267.4px;
+  right: 23.87%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.frameChild8 {
+  position: absolute;
+  width: 64.38%;
+  top: 235.6px;
+  right: 23.87%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.frameChild9 {
+  position: absolute;
+  width: 64.38%;
+  top: 203.8px;
+  right: 23.87%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.frameChild10 {
+  position: absolute;
+  width: 64.38%;
+  top: 171.9px;
+  right: 23.87%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.frameChild11 {
+  position: absolute;
+  width: 64.38%;
+  top: 140.1px;
+  right: 23.87%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.frameChild12 {
+  position: absolute;
+  width: 64.38%;
+  top: 108.2px;
+  right: 23.87%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.frameChild13 {
+  position: absolute;
+  width: 64.38%;
+  top: 76.4px;
+  right: 23.87%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.frameChild14 {
+  position: absolute;
+  width: 64.38%;
+  top: 44.6px;
+  right: 23.87%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.4px;
+}
+.barIcon {
+  position: absolute;
+  width: 23.69%;
+  top: 48.1px;
+  right: 55.12%;
+  left: 21.18%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon1 {
+  position: absolute;
+  width: 23.69%;
+  top: 62.3px;
+  right: 31.43%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon2 {
+  position: absolute;
+  width: 18%;
+  top: 79.9px;
+  right: 55.12%;
+  left: 26.87%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon3 {
+  position: absolute;
+  width: 27.93%;
+  top: 94.1px;
+  right: 55.12%;
+  left: 16.94%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon4 {
+  position: absolute;
+  width: 12%;
+  top: 175.5px;
+  right: 55.12%;
+  left: 32.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon5 {
+  position: absolute;
+  width: 12.49%;
+  top: 189.6px;
+  right: 42.63%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon6 {
+  position: absolute;
+  width: 18%;
+  top: 207.3px;
+  right: 55.12%;
+  left: 26.87%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon7 {
+  position: absolute;
+  width: 8.69%;
+  top: 221.4px;
+  right: 46.43%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon8 {
+  position: absolute;
+  width: 9.75%;
+  top: 111.8px;
+  right: 45.37%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon9 {
+  position: absolute;
+  width: 11.06%;
+  top: 125.9px;
+  right: 44.06%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon10 {
+  position: absolute;
+  width: 28.18%;
+  top: 143.6px;
+  right: 26.94%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon11 {
+  position: absolute;
+  width: 7.12%;
+  top: 157.8px;
+  right: 48%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barIcon12 {
+  position: absolute;
+  width: 14.93%;
+  top: 239.1px;
+  right: 40.19%;
+  left: 44.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.6px;
+  object-fit: contain;
+}
+.barChartParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: -0.4px;
+  left: 0px;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.horizontalBarChartXl {
+  position: absolute;
+  height: 100%;
+  width: calc(100% + 565.6px);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -565.6px;
+}
